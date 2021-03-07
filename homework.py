@@ -22,7 +22,6 @@ class Tabla(Base):
 
 
 Base.metadata.create_all(engine)
-
 today = datetime.today().date()
 
 
